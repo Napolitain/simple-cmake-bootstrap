@@ -8,6 +8,7 @@
     "folly",
     "abseil",
     "benchmark",
-    "gtest"
+    "gtest",
+    "glog"
   ]
 }
