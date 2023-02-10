@@ -3,6 +3,8 @@ project(cmake_bootstrap)
 
 set(CMAKE_CXX_STANDARD 17)
 
+# -DCMAKE_TOOLCHAIN_FILE=.../cmake-test/vcpkg/scripts/buildsystems/vcpkg.cmake
+
 find_package(fmt REQUIRED)
 find_package(range-v3 REQUIRED)
 find_package(cxxopts REQUIRED)
